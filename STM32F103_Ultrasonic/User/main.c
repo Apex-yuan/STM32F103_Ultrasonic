@@ -1,4 +1,4 @@
-ï»¿#include "stm32f10x.h"
+#include "stm32f10x.h"
 #include "usart.h"
 #include "delay.h"
 #include "ultrasonic.h"
@@ -11,7 +11,7 @@ int main(void)
   delay_init();
 	ULTRASONIC_Init();
   
-  printf("³¬Éù²¨Ä£¿é²âÊÔ\r\n"); //ÄãºÃ
+  printf("è¶…å£°æ³¢æ¨¡å—æµ‹è¯•\r\n"); //ä½ å¥½
   
   while(1)
   {
