@@ -28,7 +28,7 @@
 #define ULTRASONIC_TIM_MAX_TIME (15+5) //测量最大距离所需的时间(单位：ms)：MAX_MEASURE_DISTANCE * 2 /100 / 340 * 1000
 #define ULTRASONIC_TIM_MAX_COUNT 1500
 
-extern float distance_ul[2];
+extern float distance_ultrasonic[2];
 
 
 void ULTRASONIC_Init(void);
