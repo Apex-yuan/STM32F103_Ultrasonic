@@ -10,7 +10,7 @@ extern volatile unsigned long  SystemCurrentTime;
 void TIM2_Int_Init(uint16_t arr,uint16_t psc);
 void TIM3_Int_Init(uint16_t arr,uint16_t psc);
 void TIM4_Int_Init(uint16_t arr,uint16_t psc);
-void TIM5_Int_Init(uint16_t arr,uint16_t psc);
+//void TIM5_Int_Init(uint16_t arr,uint16_t psc);
 
 #endif  //__TIMER_H
 

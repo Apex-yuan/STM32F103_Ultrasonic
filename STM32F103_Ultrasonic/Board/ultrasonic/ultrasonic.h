@@ -20,6 +20,15 @@
 #define UL2_ECHO_PIN   GPIO_Pin_7
 
 
+typedef struct
+{
+  float distance;
+  uint8_t flag;  //上升沿触发标志位
+  uint32_t start_time;
+  uint32_t end_time;
+}UltrasonicDef;
+
+extern UltrasonicDef ultrasonic[];
 //
 #define ULTRASONIC_NUMBER 2
 #define ULTRASONIC_TIM_ARR 0XFFFF
