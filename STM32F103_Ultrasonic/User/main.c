@@ -11,7 +11,7 @@ int main(void)
   delay_init();
 	ULTRASONIC_Init();
   
-  printf("è¶…å£°æ³¢æ¨¡å—æµ‹è¯•\r\n"); //ä½ å¥½
+  printf("³¬Éù²¨Ä£¿é²âÊÔr\n"); 
   
   while(1)
   {
