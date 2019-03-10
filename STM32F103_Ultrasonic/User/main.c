@@ -11,7 +11,7 @@ int main(void)
   delay_init();
 	ULTRASONIC_Init();
   
-  printf("超声波模块测试r\n");   //塑料袋内
+  printf("超声波模块测试r\n");   //塑料袋内航空俱乐部还不
   
   while(1)
   {
